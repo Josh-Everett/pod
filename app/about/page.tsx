@@ -38,7 +38,7 @@ export default function AboutPage() {
         <h2 className="font-serif text-2xl font-bold text-foreground">
           The Hosts
         </h2>
-        <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2">
+        <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
           {/* Host 1 */}
           <div className="flex gap-4">
             <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-gray-200 text-xl font-bold text-muted">
@@ -46,6 +46,7 @@ export default function AboutPage() {
             </div>
             <div>
               <h3 className="font-bold text-foreground">Host Name</h3>
+              <p className="text-xs uppercase tracking-wide text-accent-dark">Host</p>
               <p className="mt-1 text-sm text-muted">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                 eiusmod tempor incididunt.
@@ -60,9 +61,25 @@ export default function AboutPage() {
             </div>
             <div>
               <h3 className="font-bold text-foreground">Host Name</h3>
+              <p className="text-xs uppercase tracking-wide text-accent-dark">Host</p>
               <p className="mt-1 text-sm text-muted">
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco
                 laboris nisi ut aliquip.
+              </p>
+            </div>
+          </div>
+
+          {/* Producer */}
+          <div className="flex gap-4">
+            <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-gray-200 text-xl font-bold text-muted">
+              ?
+            </div>
+            <div>
+              <h3 className="font-bold text-foreground">Producer Name</h3>
+              <p className="text-xs uppercase tracking-wide text-accent-dark">Producer</p>
+              <p className="mt-1 text-sm text-muted">
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim.
               </p>
             </div>
           </div>

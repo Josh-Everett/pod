@@ -15,21 +15,28 @@ export default function Home() {
         label="Bad Boys Book Club"
         headline="Books. Ideas. Conversations."
         description="A podcast where we dive deep into the stories and ideas that shape how we think. New episodes every week."
+        imageSrc="/images/hero/hero.png"
         href="/episodes"
       />
 
+      <EpisodeGrid episodes={nonFeatured}>
+        {/* Next Episode Teaser */}
+        <div className="flex h-full flex-col">
+          <div className="mb-5 h-px w-full bg-foreground/20" />
+          <div className="flex-1">
+            <span className="text-xs font-bold uppercase tracking-widest text-accent-dark">
+              Next Episode
+            </span>
+            <h3 className="mt-2 font-serif text-xl font-bold leading-snug text-foreground md:text-2xl">
+              Alien Isolation
+            </h3>
+            <p className="mt-2 text-sm text-muted">March 10th</p>
+          </div>
+        </div>
+      </EpisodeGrid>
+
       {/* Featured Episode (yellow background section) */}
       {featured && <FeaturedSection episode={featured} />}
-
-      {/* Episode Grid */}
-      <div className="border-t border-border">
-        <div className="mx-auto max-w-7xl px-6 pt-16 pb-4">
-          <h2 className="font-serif text-2xl font-bold text-foreground">
-            Recent Episodes
-          </h2>
-        </div>
-        <EpisodeGrid episodes={nonFeatured} />
-      </div>
     </>
   );
 }

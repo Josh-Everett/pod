@@ -14,7 +14,7 @@ export const episodes: EpisodeWithContent[] = [
     "book": "The Great Pretender",
     "author": "Susannah Cahalan",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. We break down Cahalan's riveting investigation into the famous Rosenhan experiment and what it reveals about the psychiatric system. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "coverImage": "/images/episodes/the-great-pretender.jpg",
+    "coverImage": "/images/episodes/the-great-pretender.png",
     "publishedAt": "2026-02-01",
     "spotifyUrl": "#",
     "appleUrl": "#",
@@ -23,28 +23,28 @@ export const episodes: EpisodeWithContent[] = [
   },
   {
     "slug": "the-midnight-library",
-    "title": "Parallel Lives and The Midnight Library",
-    "book": "The Midnight Library",
-    "author": "Matt Haig",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. We discuss Haig's exploration of regret, possibility, and the lives we could have lived. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.",
-    "coverImage": "/images/episodes/the-midnight-library.jpg",
+    "title": "Cyberpunk and the Future We Were Promised",
+    "book": "Cyberpunk 2077",
+    "author": "CD Projekt Red",
+    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. We discuss the world of Night City, corpo culture, and what cyberpunk fiction gets right about our future. Duis aute irure dolor in reprehenderit.",
+    "coverImage": "/images/episodes/cyberpunk.gif",
     "publishedAt": "2026-01-15",
     "spotifyUrl": "#",
     "appleUrl": "#",
     "featured": false,
-    "content": "\n## Episode Notes\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\n### Key Takeaways\n\n- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.\n- Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.\n- Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.\n\n### Timestamps\n\n- **00:00** - Introductions and book overview\n- **08:15** - The concept of the midnight library\n- **22:00** - Nora's journey through alternate lives\n- **37:30** - Philosophy of regret and choice\n- **50:00** - Wrap-up and book ratings\n"
+    "content": "\n## Episode Notes\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\n### Key Takeaways\n\n- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.\n- Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.\n- Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.\n\n### Timestamps\n\n- **00:00** - Introductions and topic overview\n- **08:15** - The world of Night City\n- **22:00** - Corpo culture and late-stage capitalism\n- **37:30** - Cyberpunk fiction vs reality\n- **50:00** - Wrap-up and ratings\n"
   },
   {
     "slug": "project-hail-mary",
-    "title": "Saving Humanity in Project Hail Mary",
-    "book": "Project Hail Mary",
-    "author": "Andy Weir",
-    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. We geek out over Weir's interstellar survival story and debate whether the science holds up. Lorem ipsum dolor sit amet consectetur.",
-    "coverImage": "/images/episodes/project-hail-mary.jpg",
+    "title": "War Never Changes: Fallout New Vegas",
+    "book": "Fallout New Vegas",
+    "author": "Obsidian Entertainment",
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. We explore the Mojave Wasteland, faction politics, and why New Vegas is still the gold standard for RPG storytelling. Lorem ipsum dolor sit amet consectetur.",
+    "coverImage": "/images/episodes/fallout-new-vegas.gif",
     "publishedAt": "2026-01-01",
     "spotifyUrl": "#",
     "appleUrl": "#",
     "featured": false,
-    "content": "\n## Episode Notes\n\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n### Key Takeaways\n\n- Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.\n- At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.\n\n### Timestamps\n\n- **00:00** - Initial thoughts and setup\n- **10:45** - The science of astrophage\n- **25:00** - Rocky: the best alien in fiction?\n- **40:15** - Problem-solving as storytelling\n- **52:30** - Final ratings and next book announcement\n"
+    "content": "\n## Episode Notes\n\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n### Key Takeaways\n\n- Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.\n- At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.\n\n### Timestamps\n\n- **00:00** - Initial thoughts and setup\n- **10:45** - The factions of the Mojave\n- **25:00** - Why New Vegas writing hits different\n- **40:15** - RPG design lessons\n- **52:30** - Final ratings and next episode preview\n"
   }
 ];

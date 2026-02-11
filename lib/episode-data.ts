@@ -1,11 +1,7 @@
 // AUTO-GENERATED — do not edit manually.
 // Run "node scripts/generate-episodes.mjs" to regenerate.
 
-import type { Episode } from "@/components/EpisodeCard";
-
-export interface EpisodeWithContent extends Episode {
-  content: string;
-}
+import type { EpisodeWithContent } from "@/lib/types";
 
 export const episodes: EpisodeWithContent[] = [
   {

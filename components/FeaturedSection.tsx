@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import PodcastLinks from "./PodcastLinks";
-import { Episode } from "./EpisodeCard";
+import type { Episode } from "@/lib/types";
 
 interface FeaturedSectionProps {
   episode: Episode;

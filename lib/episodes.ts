@@ -1,4 +1,4 @@
-import { Episode } from "@/components/EpisodeCard";
+import type { Episode } from "@/lib/types";
 import { episodes as allEpisodeData } from "./episode-data";
 
 export function getAllEpisodes(): Episode[] {

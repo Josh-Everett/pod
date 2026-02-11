@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getAllEpisodes, getEpisodeBySlug } from "@/lib/episodes";
 import PodcastLinks from "@/components/PodcastLinks";
+import { stringToColor } from "@/lib/utils";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import type { Metadata } from "next";
 
@@ -89,11 +90,3 @@ export default async function EpisodePage({ params }: PageProps) {
   );
 }
 
-function stringToColor(str: string): string {
-  let hash = 0;
-  for (let i = 0; i < str.length; i++) {
-    hash = str.charCodeAt(i) + ((hash << 5) - hash);
-  }
-  const hue = Math.abs(hash) % 360;
-  return `hsl(${hue}, 45%, 55%)`;
-}

@@ -1,4 +1,5 @@
-import EpisodeCard, { Episode } from "./EpisodeCard";
+import EpisodeCard from "./EpisodeCard";
+import type { Episode } from "@/lib/types";
 
 interface EpisodeGridProps {
   episodes: Episode[];

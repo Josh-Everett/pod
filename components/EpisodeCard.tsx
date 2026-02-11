@@ -1,19 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import PodcastLinks from "./PodcastLinks";
-
-export interface Episode {
-  slug: string;
-  title: string;
-  book: string;
-  author: string;
-  description: string;
-  coverImage: string;
-  publishedAt: string;
-  spotifyUrl?: string;
-  appleUrl?: string;
-  featured?: boolean;
-}
+import type { Episode } from "@/lib/types";
+import { stringToColor } from "@/lib/utils";
 
 interface EpisodeCardProps {
   episode: Episode;
@@ -85,12 +74,3 @@ export default function EpisodeCard({ episode }: EpisodeCardProps) {
   );
 }
 
-// Generate a consistent color from a string
-function stringToColor(str: string): string {
-  let hash = 0;
-  for (let i = 0; i < str.length; i++) {
-    hash = str.charCodeAt(i) + ((hash << 5) - hash);
-  }
-  const hue = Math.abs(hash) % 360;
-  return `hsl(${hue}, 45%, 55%)`;
-}
